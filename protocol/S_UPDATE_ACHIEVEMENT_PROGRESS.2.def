@@ -6,6 +6,5 @@ array  achievements
 - int32  id
 - array  requirements
 - - int32 index
-- - int32 unk
-- - int32 amount
-- - int32 unk2 # amount is int64?
+- - int32 type # 1 = min/max, 2 = one time event (e.g. "kill in 8 min." or "do another achiev")
+- - int64 amount
